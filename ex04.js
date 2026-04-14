@@ -1,17 +1,17 @@
-// const readline = require("readline-sync")
+const readline = require("readline-sync")
 
-// let meta = 10000
+let meta = 10000
 
-// let passos = readline.questionInt("Quantos passos você deu hoje?")
+let passos = readline.questionInt("Quantos passos você deu hoje?")
 
-// let diferenca = meta - passos
+let diferenca = meta - passos
 
-// console.log("=============== RESULTADO ===============")
+console.log("=============== RESULTADO ===============")
 
-// if(passos >= meta){
-//      console.log('Parabéns! Você atingiu a meta')
-//      console.log(`Vocẽ passou ${diferenca} passos da meta`)
-// }else{
-//      console.log(`Faltaram ${diferenca} passos`)
-// }
+if(passos >= meta){
+     console.log('Parabéns! Você atingiu a meta')
+     console.log(`Vocẽ passou ${diferenca} passos da meta`)
+}else{
+     console.log(`Faltaram ${diferenca} passos`)
+}
    
